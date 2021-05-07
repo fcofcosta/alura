@@ -1,0 +1,22 @@
+# JAVASCRIPT
+
+var first_value = parseInt(prompt("Digite o primeiro valor: "))
+var second_value = parseInt(prompt("Digite o segundo valor: "))
+
+var oper = prompt("Digite 1 para soma, 2 para subtração, 3 para multiplicação ou 4 para divisão: ")
+
+if (oper == 1) {
+  var result = first_value * second_value
+  document.write("<h2>" + first_value + " + " + second_value + " = " + result + "</h2>")
+} else if (oper == 2) {
+  var result = first_value - second_value
+  document.write("<h2>" + first_value + " - " + second_value + " = " + result + "</h2>")
+} else if (oper == 3) {
+  var result = first_value * second_value
+  document.write("<h2>" + first_value + " x " + second_value + " = " + result + "</h2>")
+} else if (oper == 4) {
+  var result = first_value / second_value
+  document.write("<h2>" + first_value + " / " + second_value + " = " + result + "</h2>")
+} else {
+  document.write("<h2>Opção inválida</h2>")
+}
